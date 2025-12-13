@@ -4,6 +4,7 @@
   "description": "Document Translation Smart Contract for a Blockchain-based translation and legalization system",
   "main": "index.js",
   "scripts": {
+    "dev": "next dev",
     "start": "node index.js --peer.address peer0.org1.example.com:7051",
     "test": "mocha"
   },
