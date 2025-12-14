@@ -1,0 +1,17 @@
+{
+  "name": "document-translation-chaincode",
+  "version": "1.0.0",
+  "description": "Document Translation Smart Contract",
+  "main": "lib/DocumentTranslationContract.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "fabric-contract-api": "^2.5.0",
+    "fabric-shim": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
